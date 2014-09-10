@@ -11,7 +11,7 @@
   <style type="text/css">
   @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
        #parallax_layer_three{
-      top: 35%;
+      top: 15%;
       position: fixed;
       background: url(https://raw.githubusercontent.com/8BitRain/Treehouse/master/Mockup%20TitleX.png);
        background-repeat: no-repeat;
@@ -133,6 +133,7 @@
     prlx_lyr_1.style.top = (.5) * -(window.pageYOffset) +'px';
     prlx_lyr_2.style.top = (.4) * -(window.pageYOffset) +'px';
     prlx_lyr_3.style.top = (.5 * window.screen.height) + (.35) * -(window.pageYOffset) +'px';
+    document.getElementById("parallax_layer_three").top = 
   }
   window.addEventListener("scroll", parallax, false);
   </script>
